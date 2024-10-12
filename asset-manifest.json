@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/midro-streamer/static/css/main.018fc641.css",
+    "main.js": "/midro-streamer/static/js/main.f976c7b0.js",
+    "index.html": "/midro-streamer/index.html",
+    "main.018fc641.css.map": "/midro-streamer/static/css/main.018fc641.css.map",
+    "main.f976c7b0.js.map": "/midro-streamer/static/js/main.f976c7b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.018fc641.css",
+    "static/js/main.f976c7b0.js"
+  ]
+}
