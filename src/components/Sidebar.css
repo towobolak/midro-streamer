@@ -1,0 +1,37 @@
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%; /* Full width on mobile */
+    padding: 10px; /* Less padding */
+  }
+
+  .sidebar__option {
+    justify-content: center; /* Center items on mobile */
+  }
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+}
+
+.sidebar__option {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.sidebar__option:hover {
+  background-color: #e0e0e0; /* Highlight on hover */
+}
+
+.sidebar__optionIcon {
+  margin-right: 10px;
+}

@@ -1,0 +1,24 @@
+.app {
+  display: flex;
+  flex-direction: column; /* Stack on smaller screens */
+}
+
+.app__body {
+  display: flex;
+}
+
+.app__content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column; /* Stack components vertically */
+  }
+
+  .app__body {
+    flex-direction: column; /* Make sidebar and content stack */
+  }
+}
