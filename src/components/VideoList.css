@@ -1,7 +1,5 @@
-/* VideoList.css */
-
 .videoList {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
   padding: 20px;
@@ -32,25 +30,32 @@
   font-size: 16px;
   font-weight: bold;
   margin-top: 10px;
-  color: #333;
+  color: #000000;
 }
 
-/* Mobile styles */
+.videoList__heading {
+  width: 100%;
+  text-align: left;
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
 @media (max-width: 768px) {
   .videoList {
-    justify-content: center; /* Center items on smaller screens */
+    justify-content: center; 
   }
 }
 
 .videoItem {
-  flex: 1 1 200px; /* Allow items to grow and shrink */
-  margin: 10px; /* Space between items */
-  text-align: center; /* Center text */
+  flex: 1 1 200px; 
+  margin: 10px;
+  text-align: center; 
 }
 
-/* Mobile styles */
 @media (max-width: 768px) {
   .videoItem {
-    flex: 1 1 100%; /* Full width on mobile */
+    flex: 1 1 100%;
   }
 }

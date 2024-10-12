@@ -13,7 +13,7 @@ function Header({ onSearchResults }) {
         const response = await axios.get(`https://www.googleapis.com/youtube/v3/search`, {
           params: {
             part: 'snippet',
-            maxResults: 10,
+            maxResults: 20,
             key: API_KEY,
             q: searchTerm,
           },
@@ -29,7 +29,7 @@ function Header({ onSearchResults }) {
   return (
     <div className="header">
       <div className="header__left">
-        <img src="logo.png" alt="Logo" />
+        <h1>Midro-Streamer</h1>
       </div>
       <div className="header__input">
         <input
@@ -39,11 +39,10 @@ function Header({ onSearchResults }) {
           onChange={(e) => setSearchTerm(e.target.value)}
         />
         <button onClick={handleSearch} className="header__searchButton">
-          <i className="fas fa-search"></i>
+          <p>Search</p>
         </button>
       </div>
       <div className="header__right">
-        {/* Your other header icons */}
       </div>
     </div>
   );

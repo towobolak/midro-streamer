@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
+import VideoPlayer from './components/VideoPlayer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import TrendingPage from './pages/TrendingPage';
@@ -11,6 +12,11 @@ import VideoList from './components/VideoList';
 
 function App() {
   const [searchResults, setSearchResults] = useState([]);
+  const [currentVideo, setCurrentVideo] = useState(null); 
+
+  const handleVideoSelect = (videoUrl) => {
+    setCurrentVideo(videoUrl); 
+  };
 
   return (
     <Router>
@@ -19,8 +25,9 @@ function App() {
         <div className="app__body">
           <Sidebar />
           <div className="app__content">
+            {currentVideo && <VideoPlayer videoUrl={currentVideo} />} 
             {searchResults.length > 0 ? (
-              <VideoList videos={searchResults} />
+              <VideoList videos={searchResults} onVideoSelect={handleVideoSelect} /> 
             ) : (
               <Routes>
                 <Route path="/" element={<HomePage />} />

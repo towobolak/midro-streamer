@@ -1,19 +1,21 @@
-import React from 'react';
-import './VideoPlayer.css';
+const VideoPlayer = ({ videoUrl }) => {
+  if (!videoUrl) {
+    return null;
+  }
 
-function VideoPlayer({ videoUrl }) {
   return (
     <div className="videoPlayer">
       <iframe
         width="100%"
-        height="480"
+        height="500px"
         src={videoUrl}
+        title="YouTube video player"
         frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
-        title="Video Player"
-      />
+      ></iframe>
     </div>
   );
-}
+};
 
 export default VideoPlayer;

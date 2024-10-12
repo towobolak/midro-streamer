@@ -1,13 +1,11 @@
-
-/* Mobile styles */
 @media (max-width: 768px) {
   .sidebar {
-    width: 100%; /* Full width on mobile */
-    padding: 10px; /* Less padding */
+    width: 100%; 
+    padding: 10px; 
   }
 
   .sidebar__option {
-    justify-content: center; /* Center items on mobile */
+    justify-content: center;
   }
 }
 
@@ -29,7 +27,7 @@
 }
 
 .sidebar__option:hover {
-  background-color: #e0e0e0; /* Highlight on hover */
+  background-color: #e0e0e0;
 }
 
 .sidebar__optionIcon {
