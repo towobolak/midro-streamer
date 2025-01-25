@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Midro Streamer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Midro Streamer is a React-based web application designed as a YouTube-inspired video streaming platform. It offers users an immersive and intuitive experience for discovering, watching, and managing videos. This README serves as a comprehensive guide to understanding the functionality of the application.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 1. **Video Browsing and Search**
+- **Homepage**: Displays a curated list of trending videos, popular categories, and recommended content based on user interactions.
+- **Search Functionality**: Users can search for videos using keywords or phrases, with results dynamically fetched and displayed.
+- **Categories**: Includes predefined categories (e.g., Music, Sports, Gaming, Education) for easy content filtering.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. **Video Player**
+- **Embedded Player**: Built-in video player for seamless streaming.
+- **Playback Controls**: Includes play, pause, volume adjustment, and full-screen mode.
+- **Progress Bar**: Allows users to navigate through the video timeline.
+- **Adaptive Quality**: Automatically adjusts video quality based on network speed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Frontend:
+- **React.js**: Core framework for building the user interface.
+- **React Router**: Handles navigation and routing between pages.
+- **CSS Modules/Tailwind CSS**: Styling framework for consistent and modular UI design.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We welcome contributions to improve Midro Streamer! To contribute:
+1. Fork the repository.
+2. Create a new branch (`feature/your-feature-name`).
+3. Commit your changes and push the branch.
+4. Submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Future Enhancements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Livestreaming**: Add support for live video streaming.
+- **Advanced Analytics**: Provide creators with detailed insights into video performance.
+- **AI-Powered Recommendations**: Use machine learning to enhance content recommendations.
+- **Mobile App**: Develop native iOS and Android applications.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Preview (DESKTOP)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![alt text](<src/images/Screenshot 2025-01-25 at 08.11.19.png>) 
+![alt text](<src/images/Screenshot 2025-01-25 at 08.11.24.png>) 
+![alt text](<src/images/Screenshot 2025-01-25 at 08.11.27.png>) 
+![alt text](<src/images/Screenshot 2025-01-25 at 08.11.53.png>) 
+![alt text](<src/images/Screenshot 2025-01-25 at 08.12.07.png>) 
 
-## Learn More
+## Preview (MOBILE)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](<src/images/Screenshot 2025-01-25 at 08.12.36.png>) 
+![alt text](<src/images/Screenshot 2025-01-25 at 08.12.44.png>)
