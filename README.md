@@ -1,6 +1,6 @@
 # Midro Streamer
 
-Midro Streamer is a React-based web application designed as a YouTube-inspired video streaming platform. It offers users an immersive and intuitive experience for discovering, watching, and managing videos. This README serves as a comprehensive guide to understanding the functionality of the application.
+Midro Streamer is a React-based web application designed as a YouTube-inspired video streaming platform. It offers users an immersive and intuitive experience for discovering, watching, and managing videos. This README serves as a comprehensive guide to understanding the functionality of the application. Click here to access the media player: https://towobolak.github.io/midro-streamer/
 
 ---
 
